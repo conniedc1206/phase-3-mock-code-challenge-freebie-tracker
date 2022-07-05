@@ -21,3 +21,6 @@ gem "sqlite3", "~> 1.4"
 gem "require_all"
 
 gem "pry"
+
+# This gem allows resetting the id of an AR table to 0. It is useful after a delete_all command. It works in Postgres and Sqlite but not in MySQL up to now.
+gem 'activerecord-reset-pk-sequence'
